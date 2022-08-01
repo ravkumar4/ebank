@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+.navbar-container {
+  width: 100%;
+  background-color: #152850;
+  padding-top: 20px;
+}
+.nav-items-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+li {
+  list-style-type: none;
+}
+
+.website-logo {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.logout-button {
+  background-color: transparent;
+  color: #e0eefe;
+  border: 1px solid #e0eefe;
+  padding: 8px 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: 'Roboto';
+}
+.logo {
+  margin-left: 10%;
+}
+.button {
+  margin-right: 10%;
+}
